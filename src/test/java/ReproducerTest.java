@@ -18,7 +18,6 @@ public class ReproducerTest {
         // this works
         var builder = Jwts.builder().setIssuedAt(null);
     assertNotNull(builder);
-    System.out.println("I RAN");
         // this doesn't
         var gh =
                 new GitHubBuilder()
